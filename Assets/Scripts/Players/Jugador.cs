@@ -5,17 +5,13 @@ using UnityEngine.Animations;
 
 public class Jugador : MonoBehaviour
 {
-    // Update is called once per frame
+    [SerializeField]GameObject mira;    
     void Update()
     {
-        MirarAlMouse();
+        MirarALaMira();
     }
-    void MirarAlMouse() //Podemos usar un objeto y moverlo con el controlador y que siga el objeto
+    void MirarALaMira()
     {
-        Vector3 mouse = Camera.main.ScreenToViewportPoint(Input.mousePosition);
-        Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
-        Vector3 direccion = mouse - pos;
-        float angle = Mathf.Atan2(direccion.x, direccion.y) * Mathf.Rad2Deg - 90f;
-        transform.rotation = Quaternion.Euler(new Vector3(0, angle, 0));
+        transform.LookAt(mira.transform);
     }
 }

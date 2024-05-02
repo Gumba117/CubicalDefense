@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +16,9 @@ public class Bala : MonoBehaviour
     public void MovBala(Transform dir)
     {
         transform.rotation = dir.rotation;
-        rigidbodyBala.AddForce(dir.right*velocidad, ForceMode.Impulse);
+        rigidbodyBala.AddForce(dir.forward*velocidad, ForceMode.Impulse);
+
+      
     }
     private void OnTriggerEnter(Collider other)
     {
