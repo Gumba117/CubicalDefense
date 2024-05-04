@@ -12,6 +12,9 @@ public class Arma : PoolManager
     public float cooldown;
     [SerializeField] Transform jugador;
     [SerializeField] KeyCode key;
+    private Arma[] armas;
+    private float velocidadBala;
+    private float dañoBala;
 
     [SerializeField] enum TipoDisparo
     {
@@ -23,7 +26,12 @@ public class Arma : PoolManager
     private void Awake()
     {
         ultimoDisparo = Time.time;
-        
+
+        if (gameObject.GetComponentsInChildren<Arma>() != null)
+        {
+            armas = gameObject.GetComponentsInChildren<Arma>();
+        }
+
     }
     void Update()
     {
@@ -32,21 +40,27 @@ public class Arma : PoolManager
         {
             case TipoDisparo.AK47:
                 cadencia = 0.15f;
-                Disparar(false);
+                velocidadBala = 50;
+                dañoBala = 1;
+                Disparar();
             break;
             case TipoDisparo.Francotirador:
                 cadencia = 2f;
-                Disparar(false);
+                velocidadBala = 100;
+                dañoBala = 3;
+                Disparar();
             break;
             case TipoDisparo.Escopeta: /////////////////////(Todavia no fuciona la escopeta) Vid Que puede ayudar https://www.youtube.com/watch?v=bqNW08Tac0Y
                 cadencia = 0.5f;
-                Disparar(false);
+                velocidadBala = 15;
+                dañoBala = 2;
+                DispararEscopeta();
             break;
-        }
-
-            
+        }    
         cooldown += Time.deltaTime;
         cooldown = Mathf.Clamp(cooldown, 0, cadencia);
+        Escopetas(tipoDisparo);
+        
     }
     public override GameObject PedirObjeto()
     {
@@ -54,14 +68,14 @@ public class Arma : PoolManager
         Objeto.transform.position = transform.position;
         //Objeto.transform.rotation = jugador.rotation;
         Objeto.SetActive(true);
-        Objeto.GetComponent<Bala>().MovBala(jugador);
+        Objeto.GetComponent<Bala>().MovBala(gameObject.transform, velocidadBala, dañoBala);
 
         return Objeto;
     }
 
-    public void Disparar(bool escopeta)
+    public void Disparar()
     {
-        if (Input.GetKey(key)&& escopeta== false) /////////////////////////////////////////////////////////////////
+        if (Input.GetKey(key)) /////////////////////////////////////////////////////////////////
         {
             if (ultimoDisparo < Time.time)
             {
@@ -70,17 +84,33 @@ public class Arma : PoolManager
                 cooldown = 0;
             }
         }
-        else if (Input.GetKey(key)&& escopeta == true)
+    }
+
+    public void DispararEscopeta()
+    {
+        if (Input.GetKey(key)) /////////////////////////////////////////////////////////////////
         {
-            if (ultimoDisparo < Time.time)
+            foreach (Arma arma in armas)
             {
-                ultimoDisparo = Time.time + cadencia;
-                for (int i = 0; i < 5; i++)
-                {
-                    PedirObjeto();
-                }
-                cooldown = 0;
+                arma.Disparar();
             }
         }
     }
+
+    private void Escopetas(TipoDisparo tipo)
+    {
+        if (gameObject.name == "Arma")//Yipeeeee cometiendo CRIMENES para que funcione la escopeta :c
+        {
+            if (tipo == TipoDisparo.Escopeta)
+            {
+                armas[1].gameObject.SetActive(true);
+                armas[2].gameObject.SetActive(true);
+            }
+            else
+            {
+                armas[1].gameObject.SetActive(false);
+                armas[2].gameObject.SetActive(false);
+            }
+        }
+    }   
 }
