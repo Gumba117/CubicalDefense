@@ -18,7 +18,11 @@ public class EnemyMovement : MonoBehaviour
 
     private void Update()
     {
-        Movement();
+        if (this != null)
+        {
+            Movement();
+        }
+       
     }
     public void Movement()
     {
