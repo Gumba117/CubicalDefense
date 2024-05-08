@@ -12,11 +12,11 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !testCanvas.enabled)
+        if (Input.GetKeyDown(KeyCode.Escape) && !testCanvas.enabled)
         {
             testCanvas.enabled = true;
         }
-        else if (Input.GetKeyDown(KeyCode.LeftShift) && testCanvas.enabled)
+        else if (Input.GetKeyDown(KeyCode.Escape) && testCanvas.enabled)
         {
             testCanvas.enabled = false;
         }
