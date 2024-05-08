@@ -40,13 +40,13 @@ public class Arma : PoolManager
         {
             case TipoDisparo.AK47:
                 cadencia = 0.15f;
-                velocidadBala = 50;
+                velocidadBala = 100;
                 dañoBala = 1;
                 Disparar();
             break;
             case TipoDisparo.Francotirador:
                 cadencia = 2f;
-                velocidadBala = 100;
+                velocidadBala = 200;
                 dañoBala = 3;
                 Disparar();
             break;
