@@ -39,6 +39,11 @@ public class EnemyMovement : MonoBehaviour
         if (this != null)
         {
             Movement();
+
+            if (enemyHP <= 0)
+            {
+                DestroyEnemy();
+            }
         }
        
     }
@@ -54,8 +59,8 @@ public class EnemyMovement : MonoBehaviour
             targetPoint += 1;
             if (targetPoint == waypoints.Length)
             {
-                gameObject.SetActive(false);
                 Attack();
+                DestroyEnemy();
             }
         }
     }
@@ -93,5 +98,18 @@ public class EnemyMovement : MonoBehaviour
     private void Attack()
     {
         Debug.Log("Enemy hit");
+    }
+
+    public void DestroyEnemy()
+    {
+        gameObject.SetActive(false);
+    }
+
+    public void EnemyHit(int i)
+    {
+        if (enemyHP > 0)
+        {
+            enemyHP = enemyHP - i;
+        }
     }
 }
