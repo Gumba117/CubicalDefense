@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
 
-    public Transform[] waypoints;
+    private Transform[] waypoints;
     public int targetPoint;
     public float toleranceDistance = 0.5f;
 
@@ -26,8 +26,9 @@ public class EnemyMovement : MonoBehaviour
     private int enemyDmg;
     private int enemyHP;
 
-    private void Start() //Cambiar por OnEnable cuando ya esté configurado el spawner
+    private void OnEnable()
     {
+        waypoints = FindObjectOfType<WayPointManager>().GetWaypoints();
         targetPoint = 0;
         SetEnemyType();
 
@@ -54,6 +55,7 @@ public class EnemyMovement : MonoBehaviour
             if (targetPoint == waypoints.Length)
             {
                 gameObject.SetActive(false);
+                Attack();
             }
         }
     }
@@ -86,5 +88,10 @@ public class EnemyMovement : MonoBehaviour
         {
             Debug.Log("Error: Enemy Tag not found");
         }
+    }
+
+    private void Attack()
+    {
+        Debug.Log("Enemy hit");
     }
 }
