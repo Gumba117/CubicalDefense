@@ -8,17 +8,17 @@ using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
 {
-    public Canvas testCanvas;
+    public GameObject testCanvas;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !testCanvas.enabled)
+        if (Input.GetKeyDown(KeyCode.Escape) && !testCanvas.activeInHierarchy)
         {
-            testCanvas.enabled = true;
+            testCanvas.SetActive(true);
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && testCanvas.enabled)
+        else if (Input.GetKeyDown(KeyCode.Escape) && testCanvas.activeInHierarchy)
         {
-            testCanvas.enabled = false;
+            testCanvas.SetActive(false);
         }
     }
 }

@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e069f3df055daf64a9406978a0f53dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testCanvas: {fileID: 1766682911}
+  testCanvas: {fileID: 1766682908}
 --- !u!4 &177337767
 Transform:
   m_ObjectHideFlags: 0
@@ -2255,7 +2255,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1766682909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2303,7 +2303,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766682908}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -3261,7 +3261,7 @@ Transform:
   m_GameObject: {fileID: 6720008880077723124}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.9, y: 1, z: -15.4}
+  m_LocalPosition: {x: 4.9, y: 1.5, z: -15.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3466,7 +3466,7 @@ MonoBehaviour:
   cooldown: 0
   jugador: {fileID: 7297312421760892094}
   key: 32
-  tipoDisparo: 1
+  tipoDisparo: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

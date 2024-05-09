@@ -14,6 +14,13 @@ public class Bala : MonoBehaviour
     {
         rigidbodyBala=GetComponent<Rigidbody>();
     }
+    private void Update()
+    {
+        if (transform.position.y<=-1f)
+        {
+            gameObject.SetActive(false);
+        }
+    }
     public void MovBala(Transform dir, float vel, float daño)
     {
         velocidad= vel;
@@ -39,6 +46,6 @@ public class Bala : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
 }
