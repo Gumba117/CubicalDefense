@@ -13,14 +13,17 @@ public class EnemyMovement : MonoBehaviour
     private float smallSpeed = 8f;
     private float medSpeed = 5f;
     private float bigSpeed = 3f;
+    private float bossSpeed = 1f;
 
     private int smallDmg = 1;
     private int medDmg = 2;
     private int bigDmg = 3;
+    private int bossDmg = 100;
 
     private int smallHP = 1;
     private int medHP = 2;
     private int bigHP = 3;
+    private int bossHP = 25;
 
     [SerializeField] private float enemySpeed;
     private int enemyDmg;
@@ -86,6 +89,13 @@ public class EnemyMovement : MonoBehaviour
             enemySpeed = bigSpeed;
             enemyDmg = bigDmg;
             enemyHP = bigHP;
+            Debug.Log("Big enemy spawned");
+        }
+        else if (this.tag == "Boss")
+        {
+            enemySpeed = bossSpeed;
+            enemyDmg = bossDmg;
+            enemyHP = bossHP;
             Debug.Log("Big enemy spawned");
         }
 

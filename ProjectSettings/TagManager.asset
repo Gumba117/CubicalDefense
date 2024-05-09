@@ -7,6 +7,7 @@ TagManager:
   - EnemySmall
   - EnemyMedium
   - EnemyBig
+  - Boss
   layers:
   - Default
   - TransparentFX
