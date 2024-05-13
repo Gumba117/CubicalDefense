@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7573821614007404730}
   m_Layer: 0
   m_Name: BossEnemy
-  m_TagString: EnemyBig
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: 0
   toleranceDistance: 0.5
-  enemySpeed: 0
   enemyHP: 0
   dfxSmall: {fileID: 872503009898165245, guid: 659d893d0bc71c544924be1f91b5e2c4, type: 3}
   dfxMedium: {fileID: 2063768405936212511, guid: 046f313705e15184f9d4484b48b21704, type: 3}

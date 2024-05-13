@@ -25,9 +25,8 @@ public class EnemyMovement : MonoBehaviour
     private int bigHP = 3;
     private int bossHP = 25;
 
-    [SerializeField] private float enemySpeed;
+    private float enemySpeed;
     private int enemyType;
-
     private int enemyDmg;
     public int enemyHP;
 
@@ -108,7 +107,7 @@ public class EnemyMovement : MonoBehaviour
             enemyDmg = bossDmg;
             enemyHP = bossHP;
             enemyType = 4;
-            Debug.Log("Boss spawned");
+            Debug.Log("BOSS SPAWNED!");
         }
 
         else
