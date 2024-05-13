@@ -26,8 +26,16 @@ public class EnemyMovement : MonoBehaviour
     private int bossHP = 25;
 
     [SerializeField] private float enemySpeed;
+    private int enemyType;
+
     private int enemyDmg;
-    private int enemyHP;
+    public int enemyHP;
+
+    public GameObject dfxSmall;
+    public GameObject dfxMedium;
+    public GameObject dfxBig;
+    public GameObject dfxBoss;
+
 
     private void OnEnable()
     {
@@ -75,6 +83,7 @@ public class EnemyMovement : MonoBehaviour
             enemySpeed = smallSpeed;
             enemyDmg = smallDmg;
             enemyHP = smallHP;
+            enemyType = 1;
             Debug.Log("Small enemy spawned");
         }
         else if (this.tag == "EnemyMedium")
@@ -82,6 +91,7 @@ public class EnemyMovement : MonoBehaviour
             enemySpeed = medSpeed;
             enemyDmg = medDmg;
             enemyHP = medHP;
+            enemyType = 2;
             Debug.Log("Medium enemy spawned");
         }
         else if (this.tag == "EnemyBig")
@@ -89,6 +99,7 @@ public class EnemyMovement : MonoBehaviour
             enemySpeed = bigSpeed;
             enemyDmg = bigDmg;
             enemyHP = bigHP;
+            enemyType = 3;
             Debug.Log("Big enemy spawned");
         }
         else if (this.tag == "Boss")
@@ -96,7 +107,8 @@ public class EnemyMovement : MonoBehaviour
             enemySpeed = bossSpeed;
             enemyDmg = bossDmg;
             enemyHP = bossHP;
-            Debug.Log("Big enemy spawned");
+            enemyType = 4;
+            Debug.Log("Boss spawned");
         }
 
         else
@@ -112,7 +124,42 @@ public class EnemyMovement : MonoBehaviour
 
     public void DestroyEnemy()
     {
-        gameObject.SetActive(false);
+        DeathEffect();
+        Destroy(gameObject);
+    }
+
+    private void DeathEffect()
+    {
+        switch(enemyType)
+        {
+            case 1://small
+                {
+                    GameObject effect = (GameObject)Instantiate(dfxSmall, transform.position, Quaternion.identity);
+                    Destroy(effect, 5f);
+                    break;
+                }
+            case 2://med
+                {
+                    GameObject effect = (GameObject)Instantiate(dfxMedium, transform.position, Quaternion.identity);
+                    Destroy(effect, 5f);
+                    break;
+                }
+            case 3://big
+                {
+                    GameObject effect = (GameObject)Instantiate(dfxBig, transform.position, Quaternion.identity);
+                    Destroy(effect, 5f);
+                    break;
+                }
+            case 4://boss
+                {
+                    GameObject effect = (GameObject)Instantiate(dfxBoss, transform.position, Quaternion.identity);
+                    Destroy(effect, 5f);
+                    break;
+                }
+                default:
+                Debug.Log("Error");
+                break;
+        }
     }
 
     public void EnemyHit(int i)

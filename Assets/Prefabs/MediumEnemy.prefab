@@ -121,3 +121,8 @@ MonoBehaviour:
   targetPoint: 0
   toleranceDistance: 0.3
   enemySpeed: 0
+  enemyHP: 0
+  dfxSmall: {fileID: 872503009898165245, guid: 659d893d0bc71c544924be1f91b5e2c4, type: 3}
+  dfxMedium: {fileID: 2063768405936212511, guid: 046f313705e15184f9d4484b48b21704, type: 3}
+  dfxBig: {fileID: 56204019021225622, guid: fbea1440f962e6c47902b8cdb252e194, type: 3}
+  dfxBoss: {fileID: 5236960951314803412, guid: 0409919e6f4b32a49bbea359632cbc38, type: 3}
