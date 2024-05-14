@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Mira : MonoBehaviour
 {
@@ -10,17 +11,7 @@ public class Mira : MonoBehaviour
     public Vector2 limitesy;
     public Vector2 limitesx;
 
-    //private PlayerInput playerInput;
-
-
-
-    void Awake()
-    {
-        //playerInput = GetComponent<PlayerInput>();
-
-    }
-    
-    
+    public Vector2 movInput;
 
     void Update()
     {
@@ -33,18 +24,24 @@ public class Mira : MonoBehaviour
         Posicion.x = Mathf.Clamp(Posicion.x, limitesx.x, limitesx.y);
         transform.position = Posicion;
     }
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        movInput = context.ReadValue<Vector2>();
+    }
+
     public void MovMira()
     {
-        transform.Translate(new Vector3(Input.GetAxis("Vertical"), Input.GetAxis("Horizontal"), 0).normalized * Time.deltaTime * velocity);
+        transform.Translate(new Vector3(movInput.x, movInput.y, 0).normalized * Time.deltaTime * velocity);
         Limites();
 
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
-            velocity = 10;
+            velocity = 40;
         }
         else
         {
-            velocity = 5;
+            velocity = 20;
         }
     }
 }

@@ -19,6 +19,8 @@ public class Bala : MonoBehaviour
         if (transform.position.y<=-1f)
         {
             gameObject.SetActive(false);
+            rigidbodyBala.velocity = Vector3.zero;
+
         }
     }
     public void MovBala(Transform dir, float vel, float daño)
@@ -30,22 +32,14 @@ public class Bala : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log(other);
-        if (other.name == "Cube")////////////////////////////////////////////////////////// MAS CRIMENES!!!!!!!!!!
-        {
-            rigidbodyBala.velocity = Vector3.zero;
-            gameObject.SetActive(false);
-        }
-
         if (other.GetComponent<EnemyMovement>())
         {
             other.GetComponent<EnemyMovement>().EnemyHit(dañoBala);
             Debug.Log("Bullet impact");
+            gameObject.SetActive(false);
+            rigidbodyBala.velocity = Vector3.zero;
+
         }
     }
 
-    private void OnBecameInvisible()
-    {
-        //gameObject.SetActive(false);
-    }
 }

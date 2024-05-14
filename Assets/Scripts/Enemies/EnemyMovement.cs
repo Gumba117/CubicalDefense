@@ -86,7 +86,7 @@ public class EnemyMovement : MonoBehaviour
             enemyDmg = smallDmg;
             enemyHP = smallHP;
             enemyType = 1;
-            Debug.Log("Small enemy spawned");
+            //Debug.Log("Small enemy spawned");
         }
         else if (this.tag == "EnemyMedium")
         {
@@ -94,7 +94,7 @@ public class EnemyMovement : MonoBehaviour
             enemyDmg = medDmg;
             enemyHP = medHP;
             enemyType = 2;
-            Debug.Log("Medium enemy spawned");
+            //Debug.Log("Medium enemy spawned");
         }
         else if (this.tag == "EnemyBig")
         {
@@ -102,7 +102,7 @@ public class EnemyMovement : MonoBehaviour
             enemyDmg = bigDmg;
             enemyHP = bigHP;
             enemyType = 3;
-            Debug.Log("Big enemy spawned");
+            //Debug.Log("Big enemy spawned");
         }
         else if (this.tag == "Boss")
         {
@@ -110,7 +110,7 @@ public class EnemyMovement : MonoBehaviour
             enemyDmg = bossDmg;
             enemyHP = bossHP;
             enemyType = 4;
-            Debug.Log("BOSS SPAWNED!");
+            //Debug.Log("BOSS SPAWNED!");
         }
 
         else
@@ -121,7 +121,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void Attack()
     {
-        Debug.Log("Enemy hit");
+        //Debug.Log("Enemy hit");
     }
 
     public void DestroyEnemy()

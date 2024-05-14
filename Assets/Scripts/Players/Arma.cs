@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Arma : PoolManager
 {
@@ -15,6 +16,8 @@ public class Arma : PoolManager
     private Arma[] armas;
     private float velocidadBala;
     private float dañoBala;
+    [SerializeField]
+    private bool disparo = false;
 
     [SerializeField] enum TipoDisparo
     {
@@ -72,27 +75,34 @@ public class Arma : PoolManager
 
         return Objeto;
     }
+    public void OnShoot(InputAction.CallbackContext context)
+    {
+        disparo = context.action.triggered;
+    }
 
     public void Disparar()
     {
-        if (Input.GetKey(key)) /////////////////////////////////////////////////////////////////
+        if (disparo) /////////////////////////////////////////////////////////////////
         {
             if (ultimoDisparo < Time.time)
             {
                 ultimoDisparo = Time.time + cadencia;
                 PedirObjeto();
                 cooldown = 0;
+                //Debug.Log("PUM");
             }
         }
     }
 
     public void DispararEscopeta()
     {
-        if (Input.GetKey(key)) /////////////////////////////////////////////////////////////////
+        if (disparo) /////////////////////////////////////////////////////////////////
         {
             foreach (Arma arma in armas)
             {
                 arma.Disparar();
+                //Debug.Log("PAM");
+
             }
         }
     }
