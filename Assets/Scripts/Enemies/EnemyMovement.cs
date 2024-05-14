@@ -35,12 +35,15 @@ public class EnemyMovement : MonoBehaviour
     public GameObject dfxBig;
     public GameObject dfxBoss;
 
+    private EnemyAnimations enemyAnimations;
+
 
     private void OnEnable()
     {
         waypoints = FindObjectOfType<WayPointManager>().GetWaypoints();
         targetPoint = 0;
         SetEnemyType();
+        enemyAnimations = GetComponent<EnemyAnimations>();
 
     }
 
@@ -166,6 +169,7 @@ public class EnemyMovement : MonoBehaviour
         if (enemyHP > 0)
         {
             enemyHP = enemyHP - i;
+            enemyAnimations.EnemyHitAnim();
         }
     }
 }

@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3057919115744825567}
   - component: {fileID: 6563773259841693814}
   - component: {fileID: 7444900644901625077}
+  - component: {fileID: 5911081830422033685}
+  - component: {fileID: 4234021443882564231}
   m_Layer: 0
   m_Name: BigEnemy
   m_TagString: EnemyBig
@@ -120,9 +122,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPoint: 0
   toleranceDistance: 0.3
-  enemySpeed: 0
   enemyHP: 0
   dfxSmall: {fileID: 872503009898165245, guid: 659d893d0bc71c544924be1f91b5e2c4, type: 3}
   dfxMedium: {fileID: 2063768405936212511, guid: 046f313705e15184f9d4484b48b21704, type: 3}
   dfxBig: {fileID: 56204019021225622, guid: fbea1440f962e6c47902b8cdb252e194, type: 3}
   dfxBoss: {fileID: 5236960951314803412, guid: 0409919e6f4b32a49bbea359632cbc38, type: 3}
+--- !u!114 &5911081830422033685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875656035559947260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066e3b791c4037c478078e0926712c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &4234021443882564231
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875656035559947260}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 64d28341ce3aa7d4083c635b35f820d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
