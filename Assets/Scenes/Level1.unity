@@ -289,7 +289,7 @@ MonoBehaviour:
   smallEnemy: {fileID: 3584577640700218844, guid: d4497dfba04f32545bef5b557d0e46d4, type: 3}
   medEnemy: {fileID: 2370743087041359426, guid: b0c6bb25b50f9494b91bc99ea1c9cdb9, type: 3}
   bigEnemy: {fileID: 875656035559947260, guid: 01d194abc7c938f4f82a27364abdd03d, type: 3}
-  boss: {fileID: 0}
+  boss: {fileID: 5142720763208792446, guid: 40c000c517f61e74591f5a62eb505085, type: 3}
   enemySpawnPoint: {fileID: 1807682957}
 --- !u!4 &34031359
 Transform:
@@ -460,6 +460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 175176187}
   - component: {fileID: 175176186}
+  - component: {fileID: 175176188}
   m_Layer: 0
   m_Name: PlayerManage
   m_TagString: Untagged
@@ -480,12 +481,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_NotificationBehavior: 2
-  m_MaxPlayerCount: 3
+  m_MaxPlayerCount: 2
   m_AllowJoining: 1
   m_JoinBehavior: 0
   m_PlayerJoinedEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 175176188}
+        m_TargetAssemblyTypeName: PlayerManage, Assembly-CSharp
+        m_MethodName: OnPlayerJoined
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_PlayerLeftEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -534,6 +547,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &175176188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175176185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab1ab445ee8c4b43b305ef308783625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p2material: {fileID: 2100000, guid: ecab164e37822064c9b568d81d41c8fa, type: 2}
+  p2Color: {r: 0, g: 0.9155474, b: 1, a: 0}
+  p2Transform: {fileID: 2016750147}
 --- !u!1 &177337765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,8 +1677,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.28235295, g: 0.427451, b: 0.28235295, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1673,8 +1701,8 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
-  orthographic: 1
+  field of view: 75
+  orthographic: 0
   orthographic size: 21.20642
   m_Depth: -1
   m_CullingMask:
@@ -2703,6 +2731,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5441156539839071044, guid: cb7788202ae184bf6964cf4857176079, type: 3}
   m_PrefabInstance: {fileID: 1908180057}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2016750146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016750147}
+  m_Layer: 0
+  m_Name: p2Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2016750147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016750146}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.41, y: 6.22, z: -20.53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2032683274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2969,3 +3028,4 @@ SceneRoots:
   - {fileID: 1766682912}
   - {fileID: 1769590205}
   - {fileID: 175176187}
+  - {fileID: 2016750147}
