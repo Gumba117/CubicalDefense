@@ -72,8 +72,8 @@ public class EnemyMovement : MonoBehaviour
             targetPoint += 1;
             if (targetPoint == waypoints.Length)
             {
-                Attack();
-                DestroyEnemy();
+                EndPath();
+                
             }
         }
     }
@@ -119,6 +119,13 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
+    private void EndPath()
+    {
+        Attack();
+        EnemySpawner.EnemiesAlive--;
+        Destroy(gameObject);
+    }
+
     private void Attack()
     {
         //Debug.Log("Enemy hit");
@@ -127,6 +134,7 @@ public class EnemyMovement : MonoBehaviour
     public void DestroyEnemy()
     {
         DeathEffect();
+        EnemySpawner.EnemiesAlive--;
         Destroy(gameObject);
     }
 

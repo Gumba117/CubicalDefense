@@ -11,7 +11,7 @@ public class EnemySpawner : MonoBehaviour
 
     public Transform enemySpawnPoint;
 
-    private float timeBetweenWaves = 10f;
+    private float timeBetweenWaves = 1f;
     private float timeBetweenEnemies = 0.5f;
     private float countdown = 2f;
 
@@ -19,8 +19,16 @@ public class EnemySpawner : MonoBehaviour
 
     private float[] spawnProbabilities = { 0.5f, 0.3f, 0.15f, 0.05f }; //PROBS: SMALL,MEDIUM,BIG,BOSS
 
+    public static int EnemiesAlive = 0;
+
     private void Update()
     {
+
+        if (EnemiesAlive > 0)
+        {
+            return;
+        }
+
         if(countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
@@ -80,5 +88,7 @@ public class EnemySpawner : MonoBehaviour
                 Debug.Log("Error");
                 break;
         }
+
+        EnemiesAlive++;
     }
 }
