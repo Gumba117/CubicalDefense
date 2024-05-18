@@ -12,11 +12,15 @@ public class NexusManager : MonoBehaviour
     public MeshRenderer nexus;
     public Material[] nexusMaterials;
 
+    CamEffects camEffects;
+
     private void Start()
     {
         nexusCurrentHealth = nexusMaxHealth;
         nexusMedHealth = nexusMaxHealth / 2f;
         nexusLowHealth = nexusMaxHealth / 4f;
+
+        camEffects = FindObjectOfType<CamEffects>();
     }
 
     private void Update()
@@ -42,6 +46,7 @@ public class NexusManager : MonoBehaviour
 
         if (nexusCurrentHealth > 0)
         {
+            camEffects.ShakeCamera(2f, 0.5f);
             nexusCurrentHealth = nexusCurrentHealth - damage;
         }
         
