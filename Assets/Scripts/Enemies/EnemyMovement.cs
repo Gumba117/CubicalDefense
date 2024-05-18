@@ -15,20 +15,26 @@ public class EnemyMovement : MonoBehaviour
     private float bigSpeed = 3f;
     private float bossSpeed = 1f;
 
-    private int smallDmg = 1;
-    private int medDmg = 2;
-    private int bigDmg = 3;
-    private int bossDmg = 100;
+    private float smallDmg = 5f;
+    private float medDmg = 10f;
+    private float bigDmg = 20f;
+    private float bossDmg = 100f;
 
-    private int smallHP = 1;
-    private int medHP = 2;
-    private int bigHP = 3;
-    private int bossHP = 25;
+    private float smallHP = 2f;
+    private float medHP = 10f;
+    private float bigHP = 35f;
+    private float bossHP = 100f;
+
+    private int smallPoints = 5;
+    private int medPoints = 10;
+    private int bigPoints = 20;
+    private int bossPoints = 100;
 
     private float enemySpeed;
+    private float enemyDmg;
+    public float enemyHP;
+    private int enemyPoints;
     private int enemyType;
-    private int enemyDmg;
-    public int enemyHP;
 
     public GameObject dfxSmall;
     public GameObject dfxMedium;
@@ -36,6 +42,8 @@ public class EnemyMovement : MonoBehaviour
     public GameObject dfxBoss;
 
     private EnemyAnimations enemyAnimations;
+    private NexusManager nexusManager;
+    private ScoreManager scoreManager;
 
 
     private void OnEnable()
@@ -44,6 +52,8 @@ public class EnemyMovement : MonoBehaviour
         targetPoint = 0;
         SetEnemyType();
         enemyAnimations = GetComponent<EnemyAnimations>();
+        nexusManager = FindObjectOfType<NexusManager>();
+        scoreManager = FindObjectOfType<ScoreManager>();
 
     }
 
@@ -85,6 +95,7 @@ public class EnemyMovement : MonoBehaviour
             enemySpeed = smallSpeed;
             enemyDmg = smallDmg;
             enemyHP = smallHP;
+            enemyPoints = smallPoints;
             enemyType = 1;
             //Debug.Log("Small enemy spawned");
         }
@@ -93,6 +104,7 @@ public class EnemyMovement : MonoBehaviour
             enemySpeed = medSpeed;
             enemyDmg = medDmg;
             enemyHP = medHP;
+            enemyPoints = medPoints;
             enemyType = 2;
             //Debug.Log("Medium enemy spawned");
         }
@@ -101,6 +113,7 @@ public class EnemyMovement : MonoBehaviour
             enemySpeed = bigSpeed;
             enemyDmg = bigDmg;
             enemyHP = bigHP;
+            enemyPoints = bigPoints;
             enemyType = 3;
             //Debug.Log("Big enemy spawned");
         }
@@ -109,6 +122,7 @@ public class EnemyMovement : MonoBehaviour
             enemySpeed = bossSpeed;
             enemyDmg = bossDmg;
             enemyHP = bossHP;
+            enemyPoints = bossPoints;
             enemyType = 4;
             //Debug.Log("BOSS SPAWNED!");
         }
@@ -128,12 +142,13 @@ public class EnemyMovement : MonoBehaviour
 
     private void Attack()
     {
-        //Debug.Log("Enemy hit");
+        nexusManager.NexusTakeDamage(enemyDmg);
     }
 
     public void DestroyEnemy()
     {
         DeathEffect();
+        scoreManager.UpdateScore(enemyPoints);
         EnemySpawner.EnemiesAlive--;
         Destroy(gameObject);
     }
@@ -172,7 +187,7 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
-    public void EnemyHit(int i)
+    public void EnemyHit(float i)
     {
         if (enemyHP > 0)
         {

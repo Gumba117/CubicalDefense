@@ -8,7 +8,7 @@ public class Bala : MonoBehaviour
 {
     [SerializeField] public Rigidbody rigidbodyBala;
     [SerializeField] public float velocidad;
-    [SerializeField] public int dañoBala = 1;
+    [SerializeField] public float dañoBala = 1;
 
     private void Awake()
     {
