@@ -8,7 +8,7 @@ public class MenuManager : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("ModoInfinito");
     }
     public void QuitGame()
     {
