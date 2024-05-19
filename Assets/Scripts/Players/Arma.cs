@@ -19,16 +19,20 @@ public class Arma : PoolManager
     [SerializeField]
     private bool disparo = false;
 
-    [SerializeField] enum TipoDisparo
+    [SerializeField]
+    public enum TipoDisparo
     {
         AK47,
         Francotirador,
         Escopeta
     }
-    [SerializeField] TipoDisparo tipoDisparo;
+
+    [SerializeField]  TipoDisparo tipoDisparo;
     private void Awake()
     {
         ultimoDisparo = Time.time;
+
+        //tipoDisparo = GameManager.instance.tipoDisparo;////////////////////////////////////////////////////////// definir j1 o j2
 
         if (gameObject.GetComponentsInChildren<Arma>() != null)
         {

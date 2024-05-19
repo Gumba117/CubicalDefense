@@ -1,24 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-using UnityEngine.UIElements;
+
 
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject testCanvas;
+    [SerializeField] public bool coop;
 
-    private void Update()
+    public static GameManager instance;
+
+    
+    public Arma.TipoDisparo tipoDisparoJ1;
+    public Arma.TipoDisparo tipoDisparoJ2;
+
+    private void Awake()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !testCanvas.activeInHierarchy)
+        
+        if (GameManager.instance == null)
         {
-            testCanvas.SetActive(true);
+            GameManager.instance = this;
+           
+
+            DontDestroyOnLoad(this.gameObject);
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && testCanvas.activeInHierarchy)
+        else
         {
-            testCanvas.SetActive(false);
+            Destroy(gameObject);
         }
     }
+
+
+
+    
+   
 }
