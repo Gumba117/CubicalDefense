@@ -32,7 +32,7 @@ public class Mira : MonoBehaviour
 
     public void MovMira()
     {
-        transform.Translate(new Vector3(movInput.x, movInput.y, 0).normalized * Time.deltaTime * velocity);
+        transform.Translate(new Vector3(-movInput.y, -movInput.x, 0).normalized * Time.deltaTime * velocity);
         Limites();
 
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))

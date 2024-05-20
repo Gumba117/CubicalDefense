@@ -107,8 +107,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3425356507641641426}
+  - component: {fileID: 7939843737731133695}
   m_Layer: 0
-  m_Name: JUGADOR
+  m_Name: Jugador
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +124,7 @@ Transform:
   m_GameObject: {fileID: 1598197128880500806}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.52, y: 6.83, z: -4.06}
+  m_LocalPosition: {x: 0, y: 11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -131,6 +132,100 @@ Transform:
   - {fileID: 3485749517334728086}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7939843737731133695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598197128880500806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 5941ff818ba85144ea88a28c0589aa52, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2359708320000624364}
+        m_TargetAssemblyTypeName: Mira, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 59a3161a-a5ea-4824-9286-c0d942c34094
+    m_ActionName: Jugador 1/Moverse[/Keyboard/upArrow]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7497085877710628904}
+        m_TargetAssemblyTypeName: Arma, Assembly-CSharp
+        m_MethodName: OnShoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8708967747223058552}
+        m_TargetAssemblyTypeName: Arma, Assembly-CSharp
+        m_MethodName: OnShoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6675965739084601173}
+        m_TargetAssemblyTypeName: Arma, Assembly-CSharp
+        m_MethodName: OnShoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 926de7dd-094c-4322-8d6d-41e2922a6546
+    m_ActionName: Jugador 1/Disparar[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e78f7338-3d9c-45d4-bae3-b5ec28d95fad
+    m_ActionName: Jugador 2/Moverse[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2b0b790d-36e6-4df0-8afa-0b7a6e796469
+    m_ActionName: Jugador 2/Disparar[/Keyboard/numpad0]
+  m_NeverAutoSwitchControlSchemes: 1
+  m_DefaultControlScheme: Control
+  m_DefaultActionMap: Jugador 1
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &3490288066300931444
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,6 +352,7 @@ MonoBehaviour:
   jugador: {fileID: 124911246858841106}
   key: 32
   disparo: 0
+  jugadorID: 0
   tipoDisparo: 2
 --- !u!1 &7111138361239352206
 GameObject:
@@ -269,7 +365,6 @@ GameObject:
   - component: {fileID: 3485749517334728086}
   - component: {fileID: 2359708320000624364}
   - component: {fileID: 3841312476078062362}
-  - component: {fileID: 2160623085626436298}
   m_Layer: 0
   m_Name: Mira
   m_TagString: Untagged
@@ -286,7 +381,7 @@ Transform:
   m_GameObject: {fileID: 7111138361239352206}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.51, y: -5.33, z: 0}
+  m_LocalPosition: {x: 4.51, y: -9.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -305,8 +400,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 20
-  limitesy: {x: -32, y: 9}
-  limitesx: {x: -17, y: 40}
+  limitesy: {x: -100, y: 100}
+  limitesx: {x: -100, y: 100}
   movInput: {x: 0, y: 0}
 --- !u!212 &3841312476078062362
 SpriteRenderer:
@@ -360,76 +455,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2160623085626436298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7111138361239352206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 5941ff818ba85144ea88a28c0589aa52, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2359708320000624364}
-        m_TargetAssemblyTypeName: Mira, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 59a3161a-a5ea-4824-9286-c0d942c34094
-    m_ActionName: Jugador 1/Moverse[/Keyboard/upArrow]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7497085877710628904}
-        m_TargetAssemblyTypeName: Arma, Assembly-CSharp
-        m_MethodName: OnShoot
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 926de7dd-094c-4322-8d6d-41e2922a6546
-    m_ActionName: Jugador 1/Disparar[/Keyboard/space]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: e78f7338-3d9c-45d4-bae3-b5ec28d95fad
-    m_ActionName: Jugador 2/Moverse[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 2b0b790d-36e6-4df0-8afa-0b7a6e796469
-    m_ActionName: Jugador 2/Disparar[/Keyboard/numpad0]
-  m_NeverAutoSwitchControlSchemes: 1
-  m_DefaultControlScheme: Control
-  m_DefaultActionMap: Jugador 1
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1 &7153892370321487347
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +483,7 @@ Transform:
   m_GameObject: {fileID: 7153892370321487347}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.8679246}
+  m_LocalPosition: {x: 0, y: 0, z: 0.759}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -536,6 +561,7 @@ MonoBehaviour:
   jugador: {fileID: 124911246858841106}
   key: 32
   disparo: 0
+  jugadorID: 0
   tipoDisparo: 0
 --- !u!1 &8996040125057660325
 GameObject:
@@ -663,4 +689,5 @@ MonoBehaviour:
   jugador: {fileID: 124911246858841106}
   key: 32
   disparo: 0
+  jugadorID: 0
   tipoDisparo: 2

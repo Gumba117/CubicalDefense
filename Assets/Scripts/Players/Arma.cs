@@ -20,6 +20,8 @@ public class Arma : PoolManager
     private bool disparo = false;
 
     [SerializeField]
+    public int jugadorID;
+
     public enum TipoDisparo
     {
         AK47,
@@ -33,12 +35,27 @@ public class Arma : PoolManager
         ultimoDisparo = Time.time;
 
         //tipoDisparo = GameManager.instance.tipoDisparo;////////////////////////////////////////////////////////// definir j1 o j2
+       
 
         if (gameObject.GetComponentsInChildren<Arma>() != null)
         {
             armas = gameObject.GetComponentsInChildren<Arma>();
         }
 
+    }
+    private void OnBecameVisible()
+    {
+        jugadorID = GameManager.instance.numJug;
+        switch (jugadorID)
+        {
+            case 1:
+                tipoDisparo = GameManager.instance.tipoDisparoJ1;
+                break;
+            case 2:
+                tipoDisparo = GameManager.instance.tipoDisparoJ2;
+                break;
+
+        }
     }
     void Update()
     {
@@ -54,13 +71,13 @@ public class Arma : PoolManager
             case TipoDisparo.Francotirador:
                 cadencia = 2f;
                 velocidadBala = 200;
-                dañoBala = 3;
+                dañoBala = 10;
                 Disparar();
             break;
             case TipoDisparo.Escopeta: /////////////////////(Todavia no fuciona la escopeta) Vid Que puede ayudar https://www.youtube.com/watch?v=bqNW08Tac0Y
                 cadencia = 0.5f;
-                velocidadBala = 15;
-                dañoBala = 2;
+                velocidadBala = 20;
+                dañoBala = 5;
                 DispararEscopeta();
             break;
         }    

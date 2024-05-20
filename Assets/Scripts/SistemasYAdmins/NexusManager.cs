@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class NexusManager : MonoBehaviour
 {
@@ -56,7 +58,9 @@ public class NexusManager : MonoBehaviour
     {
         if (nexusCurrentHealth <= 0)
         {
-            Debug.Log("Game Over");
+            //Debug.Log("Game Over");
+            SceneManager.LoadScene("Menu");
+
         }
     }
 }

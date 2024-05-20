@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     public Arma.TipoDisparo tipoDisparoJ1;
     public Arma.TipoDisparo tipoDisparoJ2;
 
+    public int numJug;
+
     private void Awake()
     {
         
