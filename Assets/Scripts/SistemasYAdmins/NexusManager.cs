@@ -48,7 +48,7 @@ public class NexusManager : MonoBehaviour
         if (nexusCurrentHealth <= 0)
         {
             //Debug.Log("Game Over");
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("GameOver");
 
         }
     }
