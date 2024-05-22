@@ -10,4 +10,9 @@ public class WayPointManager : MonoBehaviour
     {
         return wayPoints;
     }
+
+    public Transform GetSpawnPoint()
+    {
+        return wayPoints[0];
+    }
 }

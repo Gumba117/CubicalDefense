@@ -137,6 +137,7 @@ public class EnemyMovement : MonoBehaviour
     {
         Attack();
         EnemySpawner.EnemiesAlive--;
+        EnemyWaveSpawner.EnemiesAlive--;
         Destroy(gameObject);
     }
 
@@ -150,6 +151,7 @@ public class EnemyMovement : MonoBehaviour
         DeathEffect();
         scoreManager.UpdateScore(enemyPoints);
         EnemySpawner.EnemiesAlive--;
+        EnemyWaveSpawner.EnemiesAlive--;
         Destroy(gameObject);
     }
 

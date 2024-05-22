@@ -26,7 +26,7 @@ public class MenuManager : MonoBehaviour
     }
     public void JugarOleadas()
     {
-        SceneManager.LoadScene("ModoInfinito");//////////////////////////////////////Cambiar a Oleadas
+        SceneManager.LoadScene("ModoOleadas");//////////////////////////////////////Cambiar a Oleadas
     }
     public void QuitGame()
     {

@@ -6,41 +6,29 @@ using UnityEngine.SceneManagement;
 
 public class NexusManager : MonoBehaviour
 {
-    private float nexusMaxHealth = 100f;
     private float nexusMedHealth;
     private float nexusLowHealth;
     public float nexusCurrentHealth;
 
-    public MeshRenderer nexus;
+    private MeshRenderer nexus;
     public Material[] nexusMaterials;
 
-    CamEffects camEffects;
+    public CamEffects camEffects;
 
-    private void Start()
+    private void OnEnable()
     {
-        nexusCurrentHealth = nexusMaxHealth;
-        nexusMedHealth = nexusMaxHealth / 2f;
-        nexusLowHealth = nexusMaxHealth / 4f;
-
+        nexus = GetComponent<MeshRenderer>();
         camEffects = FindObjectOfType<CamEffects>();
+        nexusCurrentHealth = NexusHealth.nexusHealth;
+        nexusMedHealth = NexusHealth.nexusMaxHealth / 2f;
+        nexusLowHealth = NexusHealth.nexusMaxHealth / 4f;
+
     }
 
     private void Update()
     {
         CheckHP();
-
-        if (nexusCurrentHealth <= nexusMedHealth && nexusCurrentHealth > nexusLowHealth)
-        {
-            nexus.material = nexusMaterials[1];
-        }
-        else if (nexusCurrentHealth <= nexusLowHealth)
-        {
-            nexus.material = nexusMaterials[2];
-        }
-        else
-        {
-            nexus.material = nexusMaterials[0];
-        }
+        CheckColor();
     }
 
     public void NexusTakeDamage(float damage)
@@ -50,6 +38,7 @@ public class NexusManager : MonoBehaviour
         {
             camEffects.ShakeCamera(2f, 0.5f);
             nexusCurrentHealth = nexusCurrentHealth - damage;
+            NexusHealth.nexusHealth = nexusCurrentHealth;
         }
         
     }
@@ -61,6 +50,22 @@ public class NexusManager : MonoBehaviour
             //Debug.Log("Game Over");
             SceneManager.LoadScene("Menu");
 
+        }
+    }
+
+    private void CheckColor()
+    {
+        if (nexusCurrentHealth <= nexusMedHealth && nexusCurrentHealth > nexusLowHealth)
+        {
+            nexus.material = nexusMaterials[1];
+        }
+        else if (nexusCurrentHealth <= nexusLowHealth)
+        {
+            nexus.material = nexusMaterials[2];
+        }
+        else
+        {
+            nexus.material = nexusMaterials[0];
         }
     }
 }

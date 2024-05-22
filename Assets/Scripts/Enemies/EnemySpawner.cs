@@ -9,13 +9,14 @@ public class EnemySpawner : MonoBehaviour
     public GameObject bigEnemy;
     public GameObject boss;
 
-    public Transform enemySpawnPoint;
+    private Transform enemySpawnPoint;
 
     private float timeBetweenWaves = 1f;
     private float timeBetweenEnemies = 0.5f;
     private float countdown = 2f;
 
-    private int waveIndex = 0;
+
+    [HideInInspector]public int waveIndex = 0;
 
     private float[] spawnProbabilities = { 0.5f, 0.3f, 0.15f, 0.05f }; //PROBS: SMALL,MEDIUM,BIG,BOSS
 
@@ -36,6 +37,7 @@ public class EnemySpawner : MonoBehaviour
         }
 
         countdown-=Time.deltaTime;
+
     }
 
     IEnumerator SpawnWave()
@@ -69,6 +71,7 @@ public class EnemySpawner : MonoBehaviour
     }
     public void SpawnEnemy(int i)
     {
+        enemySpawnPoint = FindObjectOfType<WayPointManager>().GetSpawnPoint();
         switch (i)
         {
             case 0:
