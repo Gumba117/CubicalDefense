@@ -105,7 +105,7 @@ public class MenuManager : MonoBehaviour
     public void EsCoop()
     {
         int coop;
-        coop = menuSeleccion[0].GetComponent<TMP_Dropdown>().value;
+        coop = menuSeleccion[0].GetComponent<TMP_Dropdown>().value; //Sospqecho que esto causa el bug de que no se puede cambiar de modo
         if (coop==0)
         {
             GameManager.instance.coop = false;

@@ -14,5 +14,11 @@ public class NexusHealth : MonoBehaviour
         firstNexus.nexusCurrentHealth = nexusHealth;
         firstNexus.camEffects = FindObjectOfType<CamEffects>();
     }
-
+    private void OnEnable()
+    {
+        nexusHealth = nexusMaxHealth;
+        firstNexus = FindObjectOfType<NexusManager>();
+        firstNexus.nexusCurrentHealth = nexusHealth;
+        firstNexus.camEffects = FindObjectOfType<CamEffects>();
+    }
 }
