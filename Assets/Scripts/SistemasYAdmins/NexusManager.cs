@@ -21,12 +21,12 @@ public class NexusManager : MonoBehaviour
     {
         nexus = GetComponent<MeshRenderer>();
         camEffects = FindObjectOfType<CamEffects>();
-        gameOver = FindObjectOfType<GameOver>().gameObject;
+        //gameOver = FindObjectOfType<GameOver>().gameObject;
         nexusCurrentHealth = NexusHealth.nexusHealth;
         nexusMedHealth = NexusHealth.nexusMaxHealth / 2f;
         nexusLowHealth = NexusHealth.nexusMaxHealth / 4f;
 
-        Time.timeScale = 1;
+        
 
     }
 
@@ -53,8 +53,8 @@ public class NexusManager : MonoBehaviour
         if (nexusCurrentHealth <= 0)
         {
             //Debug.Log("Game Over");
-            Time.timeScale = 0;
-            SceneManager.LoadScene("GameOver");
+            //Time.timeScale = 0;
+            //SceneManager.LoadScene("GameOver");
             //gameOver.SetActive(true);
 
         }

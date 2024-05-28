@@ -2,23 +2,690 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b82c5b3-6504-4c5a-baf8-245bfb8b1a0f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Mira.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mira.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TorretasTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TorretasTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CubicalDefense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CubicalDefense/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SistemasYAdmins/NexusHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SistemasYAdmins/NexusHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SistemasYAdmins/NexusManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SistemasYAdmins/NexusManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Botones/Recurso 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Botones/Recurso 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Material.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Material/AK Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Material/AK Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Material/AK Pallete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Material/AK Pallete.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/AK47.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/AK47.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/body.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/body.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/butt.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/butt.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/gun.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/gun.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/handle.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/handle.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/magazine.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/magazine.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/onlay.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Details of the AK/Meshes/onlay.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Single AK47.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Single AK47/AK.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Single AK47/AK.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Single AK47/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Single AK47/Mesh/default.mesh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Models AK/Single AK47/Mesh/default.mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Scene/DemoScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Scene/DemoScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Voxel format AK47.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Voxel format AK47/AK47.vox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/AK 47 Voxel Asset/Voxel format AK47/AK47.vox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/About.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/About.rtf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/CastleLowPolySharedMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/CastleLowPolySharedMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/CastleLowPolySharedSelfLit.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/CastleLowPolySharedSelfLit.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/Skybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/Skybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/Textures/SharedPallete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/Textures/SharedPallete.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/Textures/SharedPalleteEmissive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Materials/Textures/SharedPalleteEmissive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Ceilings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Ceilings/Ceiling2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Ceilings/Ceiling2.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Ceilings/WoodenFloorBoardsCorridorCeiling.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Ceilings/WoodenFloorBoardsCorridorCeiling.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/DoorwaySlabB.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/DoorwaySlabB.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/FloorRoughStone.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/FloorRoughStone.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/FloorWoodenBoardsLight.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/FloorWoodenBoardsLight.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/RoughStoneSlateCorridor.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/RoughStoneSlateCorridor.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/WoodenFloorBoardsCorridor-1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Flooring/WoodenFloorBoardsCorridor-1.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Barrel.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Barrel.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/BedSingleTeal.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/BedSingleTeal.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/BookOpen.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/BookOpen.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/BookshelfA.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/BookshelfA.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Candle.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Candle.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/CarpetA.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/CarpetA.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Cauldron.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Cauldron.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/ChairRoundedBack.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/ChairRoundedBack.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Chimney.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Chimney.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Cupboard.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/Cupboard.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/FireplaceRoughStone.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/FireplaceRoughStone.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/TableDiningRough.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/TableDiningRough.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/TreasureChest-0.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/TreasureChest-0.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/TreasureChest.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/TreasureChest.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/WallTapestryFlag.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Furniture/WallTapestryFlag.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/CrenellationCornerPiece.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/CrenellationCornerPiece.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/Crenellations2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/Crenellations2.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/DoorArch.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/DoorArch.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/DoorsWindowsWalls-10.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/DoorsWindowsWalls-10.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/DoorsWindowsWalls-8.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/DoorsWindowsWalls-8.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/FoundationWall1-1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/FoundationWall1-1.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/FoundationWallCorner-0.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/FoundationWallCorner-0.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/FoundationWallShort.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/FoundationWallShort.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/ShortWall.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/ShortWall.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/ShortWallArch.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/ShortWallArch.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/StoneWallArch.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/StoneWallArch.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/WallStone.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/WallStone.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/WallStoneArchWindows.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/WallStoneArchWindows.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/WoodenBeam.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Models/Walls/WoodenBeam.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Ceilings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Ceilings/CeilingBeamsWooden.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Ceilings/CeilingBeamsWooden.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Ceilings/CorridorCeilingWoodenFloorBoards.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Ceilings/CorridorCeilingWoodenFloorBoards.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/Bedroom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/Bedroom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/Corridor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/Corridor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/FoundationDouble.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/FoundationDouble.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/FoundationSingle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/FoundationSingle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/FoundationsCorridor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/FoundationsCorridor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/RoomDoubleEmpty.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/RoomDoubleEmpty.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/RoomSingleEmpty.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Complete Rooms/RoomSingleEmpty.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Decoration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Decoration/CarpetRectangleRed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Decoration/CarpetRectangleRed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Decoration/WallTapestryFlagA.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Decoration/WallTapestryFlagA.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Doors Windows.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Doors Windows/DoorArch.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Doors Windows/DoorArch.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/DoorwaySlabB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/DoorwaySlabB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/FloorRoughStone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/FloorRoughStone.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/FloorRoughStoneCorridor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/FloorRoughStoneCorridor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/FloorWoodenBoardsLight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/FloorWoodenBoardsLight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/FloorWoodenBoardsLightCorridor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Floors/FloorWoodenBoardsLightCorridor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Beds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Beds/BedSingleTeal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Beds/BedSingleTeal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/BookshelfA.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/BookshelfA.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Chairs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Chairs/ChairRoundedBack.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Chairs/ChairRoundedBack.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Chimney.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Chimney.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Cupboard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Cupboard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/FireplaceRoughStone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/FireplaceRoughStone.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Tables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Tables/TableDiningRough.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/Tables/TableDiningRough.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/TreasureChest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Furniture/TreasureChest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Lighting/Candle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Lighting/Candle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Particles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Particles/FireRedParticles.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Particles/FireRedParticles.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Particles/Material.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Particles/Material/PixelParticle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Particles/Material/PixelParticle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Particles/Material/PixelParticle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Particles/Material/PixelParticle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Props/Barrel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Props/Barrel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Props/BookOpen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Props/BookOpen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Props/Cauldron.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Props/Cauldron.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Terrain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Terrain/GrassTerrain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Terrain/GrassTerrain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/CrenellationCorner.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/CrenellationCorner.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/CrenellationsB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/CrenellationsB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/FoundationWall.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/FoundationWall.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/FoundationWallCorner.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/FoundationWallCorner.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/FoundationWallShort.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/FoundationWallShort.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/StoneWallCornerConnector.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/StoneWallCornerConnector.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/StoneWallWithArchway.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/StoneWallWithArchway.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallArchwayShort.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallArchwayShort.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallExteriorConnector.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallExteriorConnector.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallShort.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallShort.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallStone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallStone.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallStoneArchWindows.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WallStoneArchWindows.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WoodenBeam.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Prefabs/Walls/WoodenBeam.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Scenes/AssetScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Scenes/AssetScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Scenes/ExampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Scenes/ExampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Materials/DirtCheckersMid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Materials/DirtCheckersMid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Materials/DirtPlain.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Materials/DirtPlain.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Materials/GrassDark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Materials/GrassDark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Materials/GrassDarker.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Materials/GrassDarker.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/Dirt.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/Dirt.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/DirtCheckersMid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/DirtCheckersMid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/DirtPlain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/DirtPlain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassCheckers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassCheckers.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassCheckers.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassCheckers.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassCheckersMid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassCheckersMid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassDark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassDark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassDark.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassDark.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassDarker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassDarker.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassMid.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassMid.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassTerrain.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Castle/Voxel Castle Pack Lite/Terrain/Textures/GrassTerrain.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/column.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/column.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/green_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/green_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/orange_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/orange_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/stone_6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wall_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wall_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wall_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wall_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wood_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/Materials/wood_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/aqueduct.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/aqueduct.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bonus.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bonus.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bush_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bush_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bush_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bush_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bush_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bush_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bush_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/bush_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/chair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/chair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/column_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/column_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/column_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/column_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/column_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/column_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_6.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/rock_6.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_6.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/tree_6.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/wall_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/wall_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/wall_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Decorations/wall_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/SampleScene_Voxel.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/SampleScene_Voxel.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Animations/Key_A.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Animations/Key_A.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Animations/Key_roll.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Animations/Key_roll.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Fence_Wood_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Fence_Wood_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Flower_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Flower_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Flower_B.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Flower_B.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Flower_C.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Flower_C.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Gravestone_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Gravestone_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Gravestone_B.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Gravestone_B.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Ground_Box.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Ground_Box.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Key_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Key_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Fence_Wood_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Fence_Wood_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Flower_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Flower_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Flower_B.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Flower_B.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Flower_C.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Flower_C.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Gravestone_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Gravestone_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Gravestone_B.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Gravestone_B.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Grass_D.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Grass_D.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Mix_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Mix_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_B.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_B.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_C.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_C.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_D.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_D.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_Mix_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_Mix_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_Mix_B.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Ground_Sand_Mix_B.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Key_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Key_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Mushroom_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Mushroom_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Rock_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Rock_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Rock_B.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Rock_B.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Treasure_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Treasure_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Tree_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Tree_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Tree_B.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Tree_B.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Water_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Water_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Water_Half_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Water_Half_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Wood_Bridge_A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Materials/Wood_Bridge_A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Mushroom_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Mushroom_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Rock_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Rock_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Rock_B.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Rock_B.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Treasure_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Treasure_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Tree_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Tree_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Water_Half_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Water_Half_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Wood_Bridge_A.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/FBX/Wood_Bridge_A.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Fence_Wood_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Fence_Wood_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Flower_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Flower_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Flower_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Flower_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Flower_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Flower_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Gravestone_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Gravestone_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Gravestone_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Gravestone_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Grass_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Grass_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Mix_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Mix_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_Mix_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_Mix_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_Mix_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Ground_Sand_Mix_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Key_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Key_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Mushroom_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Mushroom_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Rock_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Rock_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Rock_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Rock_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Sample1_prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Sample1_prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Treasure_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Treasure_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Tree_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Tree_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Tree_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Tree_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Water_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Water_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Water_Half_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Water_Half_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Wood_Bridge_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Prefab/Wood_Bridge_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Fence_Wood_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Fence_Wood_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Flower_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Flower_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Flower_B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Flower_B.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Flower_C.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Flower_C.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Gravestone_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Gravestone_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Gravestone_B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Gravestone_B.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Grass_D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Grass_D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Mix_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Mix_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_B.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_C.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_C.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_Mix_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_Mix_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_Mix_B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Ground_Sand_Mix_B.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Key_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Key_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Mushroom_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Mushroom_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Rock_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Rock_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Rock_B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Rock_B.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Rock_C.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Rock_C.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Treasure_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Treasure_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Tree_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Tree_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Tree_B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Tree_B.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Water_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Water_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Water_Half_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Water_Half_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Wood_Bridge_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/Environment/Voxel_Environments/Texture/Wood_Bridge_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@damage.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@damage.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@death.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@death.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump-float.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump-float.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump-landing.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump-landing.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump-up.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump-up.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@jump02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@lose.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@lose.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@run.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@run.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@walk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Animations/FreeVoxelGirl@walk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/AnimatorController.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/AnimatorController/DemoAnimation.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/AnimatorController/DemoAnimation.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/DemoScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/DemoScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/DemoSceneSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/DemoSceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/Materials/Plane.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/DemoScene/Materials/Plane.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiBlackHairPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiBlackHairPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiRedHairPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiRedHairPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiSailorSuitBlackHairPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiSailorSuitBlackHairPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiSailorSuitPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiSailorSuitPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiSailorSuitRedHairPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/KadukiSailorSuitRedHairPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Kaduki.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Kaduki.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiBlackHair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiBlackHair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiRedHair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiRedHair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiSailorSuit.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiSailorSuit.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiSailorSuitBlackHair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiSailorSuitBlackHair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiSailorSuitRedHair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/KadukiSailorSuitRedHair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/FreeVoxelGirlBlackhair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/FreeVoxelGirlBlackhair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/FreeVoxelGirlRedhair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/FreeVoxelGirlRedhair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/Kaduki.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/Kaduki.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiBlackHair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiBlackHair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiRedHair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiRedHair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiSailorSuit.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiSailorSuit.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiSailorSuitBlackHair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiSailorSuitBlackHair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiSailorSuitRedHair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/KadukiSailorSuitRedHair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/voxkaduki02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Materials/voxkaduki02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/OldModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/OldModels/FreeVoxelGirl.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/OldModels/FreeVoxelGirl.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/OldModels/FreeVoxelGirlBlackhair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/OldModels/FreeVoxelGirlBlackhair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/OldModels/FreeVoxelGirlRedhair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/OldModels/FreeVoxelGirlRedhair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/FreeVoxelGirlBlackhair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/FreeVoxelGirlBlackhair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/FreeVoxelGirlRedhair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/FreeVoxelGirlRedhair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/Kaduki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/Kaduki.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiBlackHair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiBlackHair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiRedHair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiRedHair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiSailorSuit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiSailorSuit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiSailorSuitBlackHair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiSailorSuitBlackHair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiSailorSuitRedHair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/KadukiSailorSuitRedHair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/voxkaduki02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/Models/Texture/voxkaduki02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/OldPrefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/OldPrefab/FreeVoxelGirlBlackhairPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/OldPrefab/FreeVoxelGirlBlackhairPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/OldPrefab/FreeVoxelGirlPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/OldPrefab/FreeVoxelGirlPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/OldPrefab/FreeVoxelGirlRedhairPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/OldPrefab/FreeVoxelGirlRedhairPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Imports/MonaChina/ReadMe.txt.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2gBkZKBXjKvN3v6LuU11sr2Zy4E" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +697,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderUnitTestingPageId&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderUnitTestingPageId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Azul 15\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Azul 15\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Azul 15\\AppData\\Local\\Symbols\\src&quot;
+    ]
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -66,16 +743,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="6b82c5b3-6504-4c5a-baf8-245bfb8b1a0f" name="Changes" comment="" />
       <created>1715178414888</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715178414888</updated>
       <workItem from="1715178420881" duration="2000" />
       <workItem from="1715178432366" duration="3000" />
+      <workItem from="1716903459505" duration="9000" />
+      <workItem from="1716904342550" duration="3000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
