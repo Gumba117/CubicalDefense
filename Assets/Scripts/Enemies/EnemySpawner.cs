@@ -13,14 +13,21 @@ public class EnemySpawner : MonoBehaviour
 
     private float timeBetweenWaves = 1f;
     private float timeBetweenEnemies = 0.5f;
-    private float countdown = 2f;
+    private float countdown;
 
 
-    [HideInInspector]public int waveIndex = 0;
+    [HideInInspector]public int waveIndex;
 
     private float[] spawnProbabilities = { 0.5f, 0.3f, 0.15f, 0.05f }; //PROBS: SMALL,MEDIUM,BIG,BOSS
 
-    public static int EnemiesAlive = 0;
+    public static int EnemiesAlive;
+
+    private void Start()
+    {
+        countdown = 2f;
+        EnemiesAlive = 0;
+        waveIndex = 0;
+    }
 
     private void Update()
     {

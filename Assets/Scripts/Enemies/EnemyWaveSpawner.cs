@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class EnemyWaveSpawner : MonoBehaviour
 {
-    public static int EnemiesAlive = 0;
+    public static int EnemiesAlive;
 
     public Wave[] waves;
 
@@ -16,11 +16,18 @@ public class EnemyWaveSpawner : MonoBehaviour
 
     public float timeBetweenWaves = 5f;
 
-    public float countdown = 2f;
+    public float countdown;
 
     public TextMeshProUGUI waveIndexText;
 
-    public static int waveIndex = 0;
+    public static int waveIndex;
+
+    private void Start()
+    {
+        countdown = 2f;
+        EnemiesAlive = 0;
+        waveIndex = 0;
+    }
 
     void Update()
     {
