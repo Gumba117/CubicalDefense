@@ -71,13 +71,13 @@ public class Arma : PoolManager
             case TipoDisparo.Francotirador:
                 cadencia = 2f;
                 velocidadBala = 200;
-                dañoBala = 10;
+                dañoBala = 35;
                 Disparar();
             break;
             case TipoDisparo.Escopeta: /////////////////////(Todavia no fuciona la escopeta) Vid Que puede ayudar https://www.youtube.com/watch?v=bqNW08Tac0Y
                 cadencia = 0.5f;
                 velocidadBala = 20;
-                dañoBala = 5;
+                dañoBala = 10;
                 DispararEscopeta();
             break;
         }    

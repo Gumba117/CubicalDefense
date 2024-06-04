@@ -399,7 +399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd804ab117fd7f4c8115e649d831253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 20
+  velocity: 25
   limitesy: {x: -100, y: 100}
   limitesx: {x: -100, y: 100}
   movInput: {x: 0, y: 0}
